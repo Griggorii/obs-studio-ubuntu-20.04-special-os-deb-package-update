@@ -7,4 +7,6 @@ chmod -R a+rwx /usr/lib/x86_64-linux-gnu/obs-plugins/* /usr/share/obs/*
 
 sudo dpkg -i *.deb
 
+Support https://www.youtube.com/channel/UC6WtVfU5gi2CQ4ionzbz1CQ and donate dollar card visa VISA 4817 7601 8112 4706 thanks
+
 
