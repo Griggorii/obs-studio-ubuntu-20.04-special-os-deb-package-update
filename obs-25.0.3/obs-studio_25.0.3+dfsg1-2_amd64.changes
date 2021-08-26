@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Tue, 24 Aug 2021 15:52:07 +0800
+Source: obs-studio
+Binary: libobs-dev libobs0 obs-plugins obs-studio
+Architecture: amd64
+Version: 25.0.3+dfsg1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Changed-By: Griggorii <Griggorii@gmail.com>
+Description:
+ libobs-dev - recorder and streamer for live video content (development files)
+ libobs0    - recorder and streamer for live video content (shared library)
+ obs-plugins - recorder and streamer for live video content (plugins)
+ obs-studio - recorder and streamer for live video content
+Changes:
+ obs-studio (25.0.3+dfsg1-2) focal; urgency=medium
+ .
+     * New upstream release
+     Griggorii rebuild my generate
+Checksums-Sha1:
+ adb2adbc7262b9027f54006618cebb4c26696479 113096 libobs-dev_25.0.3+dfsg1-2_amd64.deb
+ 28a56e6a7962ffb865aab5976ec59ac4173ed866 3322192 libobs0-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 61a85341f3279fb5a14e76c6cb41ff4e940f3ed0 506248 libobs0_25.0.3+dfsg1-2_amd64.deb
+ 55824578cd7085ef4b8c1d989f990f58ca925716 2078012 obs-plugins-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 9ee02836449f289d7651268b7ef8e7f2176aa9d6 129804 obs-plugins_25.0.3+dfsg1-2_amd64.deb
+ 124dd7d731064fbffba989243a13f08fb44cbc8b 24198880 obs-studio-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 7e3a5ac2544f9c165a32ff1bfa9f4e116f4ae114 20871 obs-studio_25.0.3+dfsg1-2_amd64.buildinfo
+ 2338710fb42aec3a48f46dea3dd2e0eff73db629 3515512 obs-studio_25.0.3+dfsg1-2_amd64.deb
+Checksums-Sha256:
+ 5610706becd8a020916ffe5ba5b2cc12aa3f20042a98b48e797d11a955688995 113096 libobs-dev_25.0.3+dfsg1-2_amd64.deb
+ 000b00ed16d93389dad920a8f78408e7266ab24528241b73cb0a4078d9664ce4 3322192 libobs0-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ d478416bd749cf9bf3ec98812a7d53f2e74a187477e618cfdfcbe79478a91b5c 506248 libobs0_25.0.3+dfsg1-2_amd64.deb
+ 472da264fa183192a1aefc44a2b80174cc0a597047f8120ee8f1f476edc63469 2078012 obs-plugins-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 0cd0395523be034e66b81bbdb8e4b200e1934071c4fb9c4b656cad7cff1420f7 129804 obs-plugins_25.0.3+dfsg1-2_amd64.deb
+ 0e29a9b871d253e59ac754fc494794b40137a2ee8e73ad96f7d360ac66d98dd5 24198880 obs-studio-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 10026cb39d682bcd52b995f226a8e20b14c56dd75ab001ca47e35af342c6e046 20871 obs-studio_25.0.3+dfsg1-2_amd64.buildinfo
+ 2fd7bad91be19720c642b3cfa92a75fbe0e880afb6daa09c3e649e6df4313d36 3515512 obs-studio_25.0.3+dfsg1-2_amd64.deb
+Files:
+ ddf9eac608462c2241822e8e17f22e6f 113096 libdevel optional libobs-dev_25.0.3+dfsg1-2_amd64.deb
+ e6f9c88f07e2017a859dd2787883beb0 3322192 debug optional libobs0-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ 6f43d99839418d6690fc1294e0682aa8 506248 libs optional libobs0_25.0.3+dfsg1-2_amd64.deb
+ aab490f2b490e82f9c896d7798538126 2078012 debug optional obs-plugins-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ ea2aec56f47b2977ca8f9e81b39219c5 129804 video optional obs-plugins_25.0.3+dfsg1-2_amd64.deb
+ 55ed07e65939978c87ba949c10217044 24198880 debug optional obs-studio-dbgsym_25.0.3+dfsg1-2_amd64.ddeb
+ f1b6f6c0ddfc3b7b2df604209d3eb807 20871 video optional obs-studio_25.0.3+dfsg1-2_amd64.buildinfo
+ fa493368ab3a166076b2e3d4164a9ad2 3515512 video optional obs-studio_25.0.3+dfsg1-2_amd64.deb
